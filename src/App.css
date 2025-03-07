@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .get-started-btn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .auth-buttons button {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 5px;
+  }
+  

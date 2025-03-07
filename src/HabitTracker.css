@@ -1,0 +1,172 @@
+/* HabitTracker.css */
+
+/* General Styling for the Dashboard */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  padding-top: 20px;
+}
+
+/* Styling for the Sidebar */
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.bg-dark h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.bg-dark .form-group {
+  margin-bottom: 1rem;
+}
+
+.bg-dark .form-control {
+  border-radius: 5px;
+}
+
+.bg-dark .form-check-label {
+  font-size: 1rem;
+}
+
+.bg-dark .btn-warning {
+  font-size: 1.1rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.bg-dark .btn-warning:hover {
+  background-color: #f0ad4e;
+}
+
+/* Styling for the Main Content Area */
+h4, h5 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.table th, .table td {
+  text-align: center;
+}
+
+.table th {
+  background-color: #212529;
+  color: white;
+}
+
+.table td {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: #3b4b53;
+  cursor: pointer;
+}
+
+/* Progress Bar */
+.progress-bar {
+  background-color: #f0ad4e !important;
+}
+
+.progress-bar-striped {
+  background-color: #f0ad4e !important;
+}
+
+/* Graph Styling */
+.line-chart {
+  height: 400px;
+  background-color: #2c3e50;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.line-chart canvas {
+  display: block;
+  width: 100%;
+}
+
+/* Form Controls */
+.form-control {
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.form-control:focus {
+  background-color: #34495e;
+  color: white;
+  border-color: #f0ad4e;
+}
+
+.form-group label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 5px;
+}
+
+/* Select date range */
+.form-group label {
+  font-size: 1rem;
+  color: #f0ad4e;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #e67e22;
+}
+
+/* Styling for Habit Progress Table */
+table td span {
+  font-size: 1.5rem;
+}
+
+.text-warning {
+  color: #f0ad4e;
+}
+
+.text-secondary {
+  color: #7f8c8d;
+}
+
+.text-warning:hover, .text-secondary:hover {
+  cursor: pointer;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .bg-dark {
+    margin-bottom: 20px;
+  }
+
+  .table thead {
+    font-size: 0.85rem;
+  }
+
+  .table td {
+    font-size: 0.85rem;
+  }
+
+  .line-chart {
+    margin-bottom: 20px;
+  }
+
+  .form-group label, .form-control, button {
+    font-size: 0.9rem;
+  }
+
+  h4, h5 {
+    font-size: 1.5rem;
+  }
+}

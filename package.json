@@ -1,0 +1,71 @@
+{
+  "name": "ht-front",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "homepage": "./",
+  "dependencies": {
+    "@azure/msal-browser": "^4.0.1",
+    "@azure/msal-react": "^3.0.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.0",
+    "@mui/material": "^6.4.0",
+    "@react-oauth/google": "^0.12.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/user-event": "^13.2.1",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "bootstrap-datepicker": "^1.10.0",
+    "chart.js": "^4.4.7",
+    "cra-template": "1.2.0",
+    "date-fns": "^4.1.0",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.49",
+    "firebase": "^11.2.0",
+    "gapi-script": "^1.2.0",
+    "jwt-decode": "^4.0.0",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.7",
+    "react-calendar": "^5.1.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-datepicker": "^7.6.0",
+    "react-dom": "^19.0.0",
+    "react-facebook-login": "^4.1.1",
+    "react-github-login": "^1.0.3",
+    "react-google-login": "^5.2.2",
+    "react-oauth": "^0.0.1",
+    "react-oauth-popup": "^1.0.5",
+    "react-router-dom": "^6.28.2",
+    "react-scripts": "^5.0.1",
+    "sweetalert2": "^11.15.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "ajv": "^7.2.4",
+    "web-vitals": "^4.2.4"
+  }
+}
