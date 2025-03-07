@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gowthammmurugesa82005/ht-front.git/static/css/main.4ce4bf2a.css",
+    "main.js": "/gowthammmurugesa82005/ht-front.git/static/js/main.2628bc51.js",
+    "index.html": "/gowthammmurugesa82005/ht-front.git/index.html",
+    "main.4ce4bf2a.css.map": "/gowthammmurugesa82005/ht-front.git/static/css/main.4ce4bf2a.css.map",
+    "main.2628bc51.js.map": "/gowthammmurugesa82005/ht-front.git/static/js/main.2628bc51.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ce4bf2a.css",
+    "static/js/main.2628bc51.js"
+  ]
+}
